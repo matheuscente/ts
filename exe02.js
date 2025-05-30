@@ -1,10 +1,11 @@
+"use strict";
 //array é uma lista de elementos do mesmo tipo
 //o array abaixo é um array de números
-var array = [];
+const array = [];
 array.push(2);
 //console.log(array)
 //tupla é um array que definimos o tipo do dado para uma posição específica.
-var tuple = [1, 2, 'teste'];
+const tuple = [1, 2, 'teste'];
 //console.log(tuple)
 //Um enum (abreviação de enumeration) é uma forma de nomear um conjunto de valores constantes, podendo ter valores numéricos ou string associados automaticamente ou definidos manualmente.
 //definidos manualmente
@@ -36,7 +37,7 @@ var userType;
     userType["admin"] = "admin";
     userType["guest"] = "guest";
 })(userType || (userType = {}));
-var user = {
+const user = {
     nome: "vicente",
     role: userType.admin
 };

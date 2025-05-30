@@ -19,7 +19,7 @@ const pessoa = {
 }
 
 //nao pode pois pessoa.nome é implicitamente uma string
-pessoa.nome = 5
+pessoa.nome = 5 
 
 
 //forma explicita de objetos
@@ -27,3 +27,5 @@ const pessoa2: {nome: string; idade: number} = {
     nome: 'vicente',
     idade: 15
 }
+
+
